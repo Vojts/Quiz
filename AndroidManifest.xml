@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quiz2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="Start"
+            android:name=".Starting_Screen_Activity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Kategorie"
+            android:name=".Category" >
+        </activity>
+        <activity
+            android:label="QuizActivity"
+            android:name=".QuizActivity" >
+        </activity>
+        <activity
+            android:label="baza danych"
+            android:name=".QuizDbHelper" >
+        </activity>
+        <activity
+            android:label="Pytania"
+            android:name=".Question" >
+        </activity>
+        <activity
+            android:label="Kontrakt"
+            android:name=".QuizContract" >
+        </activity>
+    </application>
+
+
+</manifest>
